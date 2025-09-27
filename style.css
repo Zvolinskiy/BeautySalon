@@ -57,7 +57,7 @@ section {
 
 .home {
   min-height: 110vh;
-  background: url('img/home.jpg') center/cover no-repeat;
+  background: url('home.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
