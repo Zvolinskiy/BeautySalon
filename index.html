@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="салон красоты, маникюр, педикюр, SPA, стрижки, салон, услуги">
+<title>Beauty Salon</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__container">
+    <div class="header__logo">BeautySalon</div>
+    <nav class="header__nav">
+      <a href="#home" class="header__link">Главная</a>
+      <a href="#about" class="header__link">О нас</a>
+      <a href="#services" class="header__link">Услуги</a>
+      <a href="#price" class="header__link">Прайс</a>
+      <a href="#faq" class="header__link">FAQ</a>
+      <a href="#reviews" class="header__link">Отзывы</a>
+      <a href="#contact" class="header__link">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="home">
+  <div class="home__content animate">
+    <h1>Красота начинается здесь</h1>
+    <p>Лучшие мастера, уютная атмосфера и индивидуальный подход к каждому клиенту.</p>
+    <p>Маникюр, педикюр, стрижки и SPA процедуры — всё для вашего идеального образа.</p>
+    <a href="#contact" class="btn">Записаться</a>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container animate">
+    <h2>О нас</h2>
+    <p>Наш салон работает более 10 лет и зарекомендовал себя как место, где каждый клиент чувствует себя особенным.</p>
+    <p>Мы используем только качественные материалы и современные техники для ваших ногтей, волос и кожи.</p>
+    <p>Наша команда — профессиональные мастера с опытом, которые постоянно повышают квалификацию.</p>
+    <img src="img/about.jpg" alt="Наш салон" class="about__img">
+    <p>Мы заботимся о комфорте каждого гостя: уютная зона ожидания, напитки, бесплатный Wi-Fi и приятная музыка.</p>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container animate">
+    <h2>Наши услуги</h2>
+    <div class="services__grid">
+      <div class="service">
+        <img src="img/salon1.jpg" alt="Маникюр">
+        <h3>Маникюр</h3>
+        <p>Красивые и ухоженные ногти, любые дизайны, укрепление и покрытие гель-лаком.</p>
+      </div>
+      <div class="service">
+        <img src="img/salon2.jpg" alt="Педикюр">
+        <h3>Педикюр</h3>
+        <p>Профессиональный уход за ногами, SPA процедуры, лечебный педикюр.</p>
+      </div>
+      <div class="service">
+        <img src="img/salon3.jpg" alt="Стрижка">
+        <h3>Стрижка</h3>
+        <p>Современные стрижки для женщин, мужчин и детей, укладки и окрашивание.</p>
+      </div>
+      <div class="service">
+        <img src="img/salon4.jpg" alt="SPA уход">
+        <h3>SPA уход</h3>
+        <p>Расслабление и восстановление для тела и души: маски, массаж, ароматерапия.</p>
+      </div>
+      <div class="service">
+        <img src="img/salon5.jpg" alt="Брови и ресницы">
+        <h3>Брови и ресницы</h3>
+        <p>Коррекция формы, окрашивание, ламинирование ресниц, долговременная укладка бровей.</p>
+      </div>
+      <div class="service">
+        <img src="img/salon6.jpg" alt="Макияж">
+        <h3>Макияж</h3>
+        <p>Дневной, вечерний, свадебный и фотосессии — профессиональные визажисты.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="price" class="price animate">
+  <div class="container">
+    <h2>Прайс-лист</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Маникюр</td><td>3000₸</td></tr>
+        <tr><td>Педикюр</td><td>3500₸</td></tr>
+        <tr><td>Стрижка</td><td>2500₸</td></tr>
+        <tr><td>SPA уход</td><td>5000₸</td></tr>
+        <tr><td>Брови и ресницы</td><td>2000₸</td></tr>
+        <tr><td>Макияж</td><td>4000₸</td></tr>
+      </tbody>
+    </table>
+    <p>Все цены ориентировочные, точную стоимость уточняйте у администратора.</p>
+  </div>
+</section>
+
+<section id="faq" class="faq animate">
+  <div class="container">
+    <h2>FAQ</h2>
+    <div class="faq__item">
+      <h3>Как записаться на услугу?</h3>
+      <p>Через форму на сайте или по телефону. Мы подберем удобное время.</p>
+    </div>
+    <div class="faq__item">
+      <h3>Можно ли подарить сертификат?</h3>
+      <p>Да, есть подарочные сертификаты на любую услугу.</p>
+    </div>
+    <div class="faq__item">
+      <h3>Доступен ли детский маникюр?</h3>
+      <p>Да, мы обслуживаем детей безопасными материалами.</p>
+    </div>
+    <div class="faq__item">
+      <h3>Как долго длится процедура?</h3>
+      <p>В среднем маникюр — 1 час, педикюр — 1.5 часа, SPA уход — от 2 часов.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="reviews animate">
+  <div class="container">
+    <h2>Отзывы клиентов</h2>
+    <div class="reviews__grid">
+      <div class="review">
+        <p>“Очень уютный салон, мастера профессионалы, рекомендую!”</p>
+        <span>- Алина</span>
+      </div>
+      <div class="review">
+        <p>“Мой любимый салон для педикюра и SPA процедур, всегда ухожу довольная.”</p>
+        <span>- Мария</span>
+      </div>
+      <div class="review">
+        <p>“Отличный сервис и чистота. Все понравилось, обязательно приду снова.”</p>
+        <span>- София</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact animate">
+  <div class="container">
+    <h2>Запишитесь на услугу</h2>
+    <form id="contactForm" class="contact__form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Телефон" required>
+      <textarea placeholder="Комментарий" rows="4"></textarea>
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__container">
+    <p>© 2025 BeautySalon. Все права защищены.</p>
+    <div class="footer__socials">
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">VK</a>
+      <a href="#" target="_blank">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
